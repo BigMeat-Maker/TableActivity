@@ -3,31 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Drug Stock</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Ensures borders are merged */
+            background-color: #FFFFE0; /* Background color for the table */
+        }
+        th, td {
+            border: 1px solid black; /* Adds border to table cells */
+            padding: 8px; /* Adds padding inside cells */
+            text-align: left; /* Aligns text to the left */
+        }
+        th {
+            background-color: #f2f2f2; /* Light gray background for headers */
+        }
+        thead th {
+            background-color: #d3d3d3; /* Slightly darker gray for the table header */
+        }
+    </style>
 </head>
-    <table style="background-color:#FFFFE0;">
-
-<thead>
-<tr>
-    <th>Sigma</th>
-    <th>Beta</th>
-</tr>
-</thead>
-<tbody>
-
-    <tr>
-    <th>Kurt</th>
-    <th>Garlan</th>
-    </tr>
-
-    <tr>
-    <th>Ligma</th>
-    <th>Balls</th>
-    </tr>
-</tbody>
-
-</table>
-
-
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Illegal Drug Stock</th> <!-- Use colspan to span the entire table width -->
+            </tr>
+            <tr>
+                <th>Drug Name</th>
+                <th>Price per Gram</th>
+                <th>KG in Stock</th>
+                <th>Main Seller</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cocaine</td>
+                <td>$100</td>
+                <td>57</td>
+                <td>Red Band</td>
+            </tr>
+            <tr>
+                <td>Marijuana</td>
+                <td>$87</td>
+                <td>34</td>
+                <td>Black Ice</td>
+            </tr>
+            <tr>
+                <td>Ecstasy</td>
+                <td>$56</td>
+                <td>22</td>
+                <td>Meister</td>
+            </tr>
+            <tr>
+                <td>Ketamine</td>
+                <td>$29</td>
+                <td>19</td>
+                <td>Hobo</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
